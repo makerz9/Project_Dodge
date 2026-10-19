@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3100573836525358937}
   - component: {fileID: 2262941605552275162}
   - component: {fileID: 173691293763803228}
-  - component: {fileID: 1923572177196124374}
+  - component: {fileID: 4469258654354088814}
   m_Layer: 0
   m_Name: BulletSpawner
   m_TagString: Untagged
@@ -91,26 +91,17 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1923572177196124374
-CapsuleCollider:
+--- !u!114 &4469258654354088814
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873796895096479607}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e1618b25f9b464688d2f030d1bc838, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
+  bulletPrefab: {fileID: 3702024511643900463, guid: a8d2546257c64d14e956e6d244351026, type: 3}
+  interval: 1
