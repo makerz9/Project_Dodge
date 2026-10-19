@@ -4,7 +4,7 @@ public class Bullet : MonoBehaviour
 {
     //물리 선언
     private Rigidbody rb;
-    private float speed = 8f;
+    [SerializeField] private float speed = 8f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
