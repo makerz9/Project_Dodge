@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
             // Rigidbody playerRb = other.GetComponent<Rigidbody>();
             // playerRb.AddForce(Vector3.up * speed, ForceMode.Impulse);
 
-            other.gameObject.SetActive(false);
+            //other.gameObject.SetActive(false);
             Destroy(gameObject);
 
         }
